@@ -10,7 +10,7 @@ During the training phase, I implement some data augmentation techniques to impr
 
 # Constraints of the current solution:
 
-- Limited dataset size: As the dataset consists of only 27,000 images, the model's accuracy may not generalize well to other similar datasets with a larger number of images.
+- **Limited dataset size:** As the dataset consists of only 27,000 images, the model's accuracy may not generalize well to other similar datasets with a larger number of images.
 - Limited variety of classes: The dataset includes only 10 different classes of land use, limiting the model's ability to recognize more complex patterns in a more diverse set of classes.
 - Limited data augmentation: While some data augmentation techniques, such as random horizontal and vertical flips, are implemented during training, more advanced techniques could be utilized to further enhance the model's performance.
 - Pretrained model limitations: The use of a pretrained resnet101 model with its head replaced may not be the best option for this specific task, as the dataset is small and not necessarily similar to the dataset used to pretrain the model.
