@@ -4,9 +4,12 @@ Here is an implementation of image classification for on the EuroSAT land cover 
 
 The model architecture that we have used is Resnet 101.
 
+## Dataset:
 After considering my familiarity with the frameworks, I decided to utilize Pytorch for my project. To ensure seamless integration with Pytorch pipelines, such as multithreaded data loaders, transform operations, samplers, etc., I chose to implement a custom loader by subclassing torchvision ImageFolder. As EuroSAT lacks a defined test set, I generated one using a 90 % / 10 % split with a fixed random seed to maintain consistency. 
 
+## Training:
 During the training phase, I implement some data augmentation techniques to improve the model's performance, including random horizontal and vertical flips using the torchvision utilities. To optimize my model's accuracy, I utilize a pretrained resnet101 model, replacing its head as I have only 10 classes. By default, only the head is fine-tuned during the training process. 
+
 
 # Constraints of the current solution:
 
