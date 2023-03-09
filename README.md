@@ -9,6 +9,8 @@ There are two different folders:
 
 - **An other one is for the use of local machines but which works with .py files and use .npy files to save results.**
 
+I prefer you to check the one for google colab since it contains all of the details.
+
 ## Dataset:
 After considering my familiarity with the frameworks, I decided to utilize Pytorch for my project. To ensure seamless integration with Pytorch pipelines, such as multithreaded data loaders, transform operations, samplers, etc., I chose to implement a custom loader by subclassing torchvision ImageFolder. As EuroSAT lacks a defined test set, I generated one using a 90 % / 10 % split with a fixed random seed to maintain consistency. 
 
