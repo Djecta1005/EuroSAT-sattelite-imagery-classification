@@ -5,9 +5,9 @@ Here is an implementation of image classification for on the EuroSAT land cover 
 The model architecture that we have used is Resnet 101.
 
 There are two different folders:
-- **One for google colab execution which I prefer you to use to avoid every infrastructure problems related to the local machines. Here we use tensorboard to save results.
+- **One for google colab execution which I prefer you to use to avoid every infrastructure problems related to the local machines. Here we use tensorboard to save results.**
 
-- **An other one is for the use of local machines but which works with .py files and use .npy files to save results.
+- **An other one is for the use of local machines but which works with .py files and use .npy files to save results.**
 
 ## Dataset:
 After considering my familiarity with the frameworks, I decided to utilize Pytorch for my project. To ensure seamless integration with Pytorch pipelines, such as multithreaded data loaders, transform operations, samplers, etc., I chose to implement a custom loader by subclassing torchvision ImageFolder. As EuroSAT lacks a defined test set, I generated one using a 90 % / 10 % split with a fixed random seed to maintain consistency. 
