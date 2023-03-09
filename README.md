@@ -17,8 +17,8 @@ During the training phase, I implement some data augmentation techniques to impr
 - Limited hyperparameter tuning: The current solution employs default hyperparameters for training, and a more thorough optimization could lead to higher accuracy.
 # Potential improvements to the solution:
 
-- Increase dataset size: Collecting and adding more images to the dataset could help to improve the model's performance and generalization capabilities.
-- Add more classes: Expanding the number of classes in the dataset could help to better train the model for more complex classification tasks.
 - More advanced data augmentation: Implementing more advanced data augmentation techniques, such as rotation, scaling, and translation, could improve the model's ability to recognize patterns and reduce overfitting.
 - Fine-tune pretrained models: Fine-tuning models specifically for this dataset, or training models from scratch, could lead to improved performance compared to using a generic pretrained model.
 - Hyperparameter tuning: Conducting a thorough search for optimal hyperparameters could help to maximize the model's performance.
+- Implement more advanced optimization techniques: Utilizing techniques such as learning rate scheduling, weight decay, or gradient clipping could help to improve the model's training and generalization.
+- Utilize more advanced architectures: Implementing more advanced neural network architectures, such as attention mechanisms or capsule networks, could lead to improved performance on this specific task.
