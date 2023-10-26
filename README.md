@@ -1,4 +1,4 @@
-# SpaceSenseChallenge
+# EuroSAT sattelite imagery classification
 
 Here is an implementation of image classification for on the EuroSAT land cover classification dataset. 
 
